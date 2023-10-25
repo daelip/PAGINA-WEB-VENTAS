@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu (2).png" alt="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">servicios</a></li>
+                    <li><a href="#">productos</a></li>
+                    <li><a href="#">contactos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="imagenes/carrito.jpg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="header-content container">
+            <div class="header-txt">
+                 <span>Bienvenido a nuestra tienda</span>
+                 <h1>Ofertas especiales</h1>
+                 <p>
+                    Bienvenidos a nuestra tienda.
+                 </p>
+                 <div class="butons">
+                     <a href="#" class="btn-1">Informacio</a>
+                     <a href="#" class="btn-1">Leer mas</a>
+                 </div>
+                 <div class="header-img">
+                    <img src="Imagenes/Bueno, bonito y barato.jpg" alt="">
+                   </div>
+            </div>
+           
+        </div>
+
+    </header>
+
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Pans deportivo</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                 <img src="imagenes/pans deportivo.jpg" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Overol</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                 <img src="imagenes/overol.jpg" alt="">
+            </div>
+        </div>
+         <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Vestido corto</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                 <img src="imagenes/vestido corto sin mangas.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <main class="products container">
+
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="imagenes/conjunto aestetick.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Conjunto aestetick</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$145</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/conjunto formal.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Conjunto formal</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/conjunto informal.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Conjunto informal</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pantalon blanco acampanado.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Pantalon blanco acampanado</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pantalon acampanado.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Pantalon acampanado</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="5">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pantalon blando.jpg" alt="">
+                <div class="product-txt">
+                     <h3>pantalon blanco</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="6">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pantalon de flores.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Pantalon blanco de mariposas</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="7">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pantalon flojo cafe.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Pantalon cafe</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="8">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pantalon flojo.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Pantalon flojo</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="9">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/vestido cafe.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Vestido cafe</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="1o">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/vestido corto verde.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Vestido corto verde</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="11">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/vestido de novia.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Vestido de novia</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="12">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/vestido elegante.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Vestido elegante</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="13">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/vestido largo verde.jpg" alt="">
+                <div class="product-txt">
+                     <h3>Vestido largo</h3>
+                     <p>calidad premium</p>
+                     <p class="precio">$200</p>
+                     <a href="#" class="agregar-carrito btn-3" data-id="14">
+                        Agregar al carrito
+                     </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+
+    </main>
+
+    <section class="testimonial container">
+           <span>testimoniales</span>
+           <h2>Que opinan nuestros clientes</h2>
+           <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    Pues estamos satisfechos con la calidad de sus productos
+                    me parece que estan a muy buen precio y que son de muy 
+                    buena calidad, ademas los precios estan muy comodos y 
+                    la ropa esta muy linda.
+                </p>
+                <img src="imagenes/cinco estrellas.jpg" alt="">
+                <h4>Calificacion de nuestros clientes</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    Me encantaron sus productos estan muy lindos 
+                    ademas son de muy buena calidad y su precio 
+                    esta muy accesible.
+                </p>
+                <img src="imagenes/cinco estrellas.jpg" alt="">
+                <h4>Calificacion de nuestros clientes</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Tienda</h3>
+                <ul> 
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Tienda</h3>
+                <ul> 
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Tienda</h3>
+                <ul> 
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Tienda</h3>
+                <ul> 
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                    <li><a href="#">Nuevo</a></li>
+                </ul>
+            </div>
+         </div>
+
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
